@@ -140,7 +140,7 @@ nombre:"Jhon Fredy Suaza",
 cupos:2
 },
 
-"AB29":{
+"AS29":{
 nombre:"Abelardo Salgado",
 cupos:1
 }
