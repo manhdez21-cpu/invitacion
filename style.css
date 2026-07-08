@@ -73,6 +73,39 @@ body{
     transition: transform .2s ease;
 }
 
+#selloIzq,
+#selloDer{
+
+    position:absolute;
+
+    width:110px;
+
+    left:50%;
+
+    top:67%;
+
+    transform:translate(-50%,-50%);
+
+    opacity:0;
+
+    pointer-events:none;
+
+    z-index:101;
+
+}
+
+#selloIzq{
+
+    margin-left:-27px;
+
+}
+
+#selloDer{
+
+    margin-left:27px;
+
+}
+
 #nombre{
     font-family: "Great Vibes", cursive;
     font-size:50px;
