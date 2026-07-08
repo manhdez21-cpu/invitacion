@@ -1,9 +1,9 @@
-// Obtiene el ID de la URL
+// Obtiene el código de la URL
 const params = new URLSearchParams(window.location.search);
-const id = params.get("id");
+const codigo = params.get("codigo");
 
 // Busca el invitado
-const invitado = invitados[id];
+const invitado = invitados[codigo];
 
 // Referencias
 const nombre = document.getElementById("nombre");
