@@ -19,7 +19,7 @@ body{
 
 .texto{
     position:absolute;
-    top:235px;
+    top:140px;
     left:50%;
     transform:translateX(-50%);
     width:80%;
