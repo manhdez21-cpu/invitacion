@@ -133,6 +133,17 @@ cupos:2
 "GM27":{
 nombre:"Giancarlo Moreno",
 cupos:1
+},
+
+"JS28":{
+nombre:"Jhon Fredy Suaza",
+cupos:2
+},
+
+"AB29":{
+nombre:"Abelardo Salgado",
+cupos:1
 }
+  
 
 };
