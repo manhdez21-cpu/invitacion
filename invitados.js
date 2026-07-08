@@ -41,22 +41,22 @@ cupos:2
 },
 
 "JP09":{
-nombre:"Jean Pierre Espinoza",
+nombre:"Jean Pierre Espinosa",
 cupos:1
 },
 
 "SP10":{
-nombre:"Sandra Milena Pulgarin",
+nombre:"Sandra Milena Erazo",
 cupos:2
 },
 
 "JH11":{
-nombre:"Juan David Hernández",
+nombre:"David Hernández",
 cupos:2
 },
 
 "SH12":{
-nombre:"Sebastian Hernández",
+nombre:"Sebastián Hernández",
 cupos:2
 },
 
@@ -111,7 +111,7 @@ cupos:1
 },
 
 "DR23":{
-nombre:"Daniel Rodriguez",
+nombre:"Daniel Rodríguez",
 cupos:1
 },
 
