@@ -1,136 +1,136 @@
 const invitados = {
 
-"001":{
+"luz-marina-marin":{
 nombre:"Luz Marina Marín",
 cupos:1
 },
 
-"002":{
+"fernando-rivera":{
 nombre:"Fernando Rivera",
 cupos:1
 },
 
-"003":{
+"jose-manuel-rivera":{
 nombre:"Jose Manuel Rivera",
 cupos:1
 },
 
-"004":{
+"alejandra-camacho":{
 nombre:"Alejandra Camacho",
 cupos:3
 },
 
-"005":{
+"adriana-camacho":{
 nombre:"Adriana Camacho",
 cupos:4
 },
 
-"006":{
+"socorro-camacho":{
 nombre:"Socorro Camacho",
 cupos:2
 },
 
-"007":{
+"maria-paula-montes":{
 nombre:"Maria Paula Montes",
 cupos:2
 },
 
-"008":{
+"laura-ruiz":{
 nombre:"Laura Ruiz",
 cupos:2
 },
 
-"009":{
+"jean-pierre-espinoza":{
 nombre:"Jean Pierre Espinoza",
 cupos:1
 },
 
-"010":{
+"sandra-milena-pulgarin":{
 nombre:"Sandra Milena Pulgarin",
 cupos:2
 },
 
-"011":{
+"juan-david-hernandez":{
 nombre:"Juan David Hernández",
 cupos:2
 },
 
-"012":{
+"sebastian-hernandez":{
 nombre:"Sebastian Hernández",
 cupos:2
 },
 
-"013":{
+"ximena-hernandez":{
 nombre:"Ximena Hernández",
 cupos:2
 },
 
-"014":{
+"anthony-quinonez":{
 nombre:"Anthony Quiñónez",
 cupos:2
 },
 
-"015":{
+"victor-hernandez":{
 nombre:"Víctor Hernández",
 cupos:2
 },
 
-"016":{
+"stephanny-mira":{
 nombre:"Stephanny Mira",
 cupos:2
 },
 
-"017":{
+"maria-teresa-molina":{
 nombre:"Maria Teresa Molina",
 cupos:1
 },
 
-"018":{
+"cesar-hernandez":{
 nombre:"César Hernández",
 cupos:2
 },
 
-"019":{
+"camila-diaz":{
 nombre:"Camila Díaz",
 cupos:2
 },
 
-"020":{
+"jeison-suarez":{
 nombre:"Jeison Suárez",
 cupos:2
 },
 
-"021":{
+"abel-silguero":{
 nombre:"Abel Silguero",
 cupos:2
 },
 
-"022":{
+"rodrigo-pereiro":{
 nombre:"Rodrigo Pereiro",
 cupos:1
 },
 
-"023":{
+"daniel-rodriguez":{
 nombre:"Daniel Rodriguez",
 cupos:1
 },
 
-"024":{
+"sebastian-giraldo":{
 nombre:"Sebastián Giraldo",
 cupos:2
 },
 
-"025":{
+"miryam-rendon":{
 nombre:"Miryam Rendón",
 cupos:1
 },
 
-"026":{
+"gerardo-garcia":{
 nombre:"Gerardo García",
 cupos:2
 },
 
-"027":{
+"giancarlo-moreno":{
 nombre:"Giancarlo Moreno",
 cupos:1
 }
