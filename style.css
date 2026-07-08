@@ -43,8 +43,11 @@ body{
 
 #sobre{
     display:block;
-    width:100%;
+    max-width:100vw;
+    max-height:100vh;
+    width:auto;
     height:auto;
+    object-fit:contain;
 }
 
 #sobre:hover{
@@ -53,8 +56,11 @@ body{
 
 .sobre-contenedor{
     position:relative;
-    width:100%;
-    max-width:430px;   /* ancho típico de un iPhone */
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 #nombre{
