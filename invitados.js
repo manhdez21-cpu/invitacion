@@ -1,136 +1,136 @@
 const invitados = {
 
-"luz-marina-marin":{
+"LM01":{
 nombre:"Luz Marina Marín",
 cupos:1
 },
 
-"fernando-rivera":{
+"FR02":{
 nombre:"Fernando Rivera",
 cupos:1
 },
 
-"jose-manuel-rivera":{
+"JR03":{
 nombre:"Jose Manuel Rivera",
 cupos:1
 },
 
-"alejandra-camacho":{
+"AC04":{
 nombre:"Alejandra Camacho",
 cupos:3
 },
 
-"adriana-camacho":{
+"AC05":{
 nombre:"Adriana Camacho",
 cupos:4
 },
 
-"socorro-camacho":{
+"SC06":{
 nombre:"Socorro Camacho",
 cupos:2
 },
 
-"maria-paula-montes":{
+"MP07":{
 nombre:"Maria Paula Montes",
 cupos:2
 },
 
-"laura-ruiz":{
+"LR08":{
 nombre:"Laura Ruiz",
 cupos:2
 },
 
-"jean-pierre-espinoza":{
+"JP09":{
 nombre:"Jean Pierre Espinoza",
 cupos:1
 },
 
-"sandra-milena-pulgarin":{
+"SP10":{
 nombre:"Sandra Milena Pulgarin",
 cupos:2
 },
 
-"juan-david-hernandez":{
+"JH11":{
 nombre:"Juan David Hernández",
 cupos:2
 },
 
-"sebastian-hernandez":{
+"SH12":{
 nombre:"Sebastian Hernández",
 cupos:2
 },
 
-"ximena-hernandez":{
+"XH13":{
 nombre:"Ximena Hernández",
 cupos:2
 },
 
-"anthony-quinonez":{
+"AQ14":{
 nombre:"Anthony Quiñónez",
 cupos:2
 },
 
-"victor-hernandez":{
+"VH15":{
 nombre:"Víctor Hernández",
 cupos:2
 },
 
-"stephanny-mira":{
+"SM16":{
 nombre:"Stephanny Mira",
 cupos:2
 },
 
-"maria-teresa-molina":{
+"MT17":{
 nombre:"Maria Teresa Molina",
 cupos:1
 },
 
-"cesar-hernandez":{
+"CH18":{
 nombre:"César Hernández",
 cupos:2
 },
 
-"camila-diaz":{
+"CD19":{
 nombre:"Camila Díaz",
 cupos:2
 },
 
-"jeison-suarez":{
+"JS20":{
 nombre:"Jeison Suárez",
 cupos:2
 },
 
-"abel-silguero":{
+"AS21":{
 nombre:"Abel Silguero",
 cupos:2
 },
 
-"rodrigo-pereiro":{
+"RP22":{
 nombre:"Rodrigo Pereiro",
 cupos:1
 },
 
-"daniel-rodriguez":{
+"DR23":{
 nombre:"Daniel Rodriguez",
 cupos:1
 },
 
-"sebastian-giraldo":{
+"SG24":{
 nombre:"Sebastián Giraldo",
 cupos:2
 },
 
-"miryam-rendon":{
+"MR25":{
 nombre:"Miryam Rendón",
 cupos:1
 },
 
-"gerardo-garcia":{
+"GG26":{
 nombre:"Gerardo García",
 cupos:2
 },
 
-"giancarlo-moreno":{
+"GM27":{
 nombre:"Giancarlo Moreno",
 cupos:1
 }
