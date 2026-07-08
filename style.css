@@ -39,7 +39,8 @@ body{
 
 #mensaje{
     margin-top:12px;
-    color:#9C7A4A;
-    font-size:26px;
-    line-height:1.5;
+    font-family: "Cormorant Garamond", serif;
+    font-size:30px;
+    color:#8d6b42;
+    line-height:1.4;
 }
