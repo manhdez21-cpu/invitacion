@@ -34,7 +34,7 @@ body{
 
     justify-content:flex-start;
 
-    padding-top:70px;
+    padding-top:50px;
 
     z-index:999;
 
@@ -79,7 +79,7 @@ body{
     line-height:1.15;
     font-weight:500;
 
-    transform: translateY(25px);
+    transform: translateY(15px);
 }
 
 #mensaje span{
