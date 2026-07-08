@@ -72,12 +72,14 @@ body{
 }
 
 #mensaje{
-    margin-top:14px;
+    margin-top:55px;
     font-family:"Cormorant Garamond", serif;
     font-size:28px;
     color:#6d5a43;
     line-height:1.15;
     font-weight:500;
+
+    transform: translateY(35px);
 }
 
 #mensaje span{
