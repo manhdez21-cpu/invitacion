@@ -26,7 +26,7 @@ cupos:4
 },
 
 "006":{
-nombre:"Socorro",
+nombre:"Socorro Camacho",
 cupos:2
 },
 
