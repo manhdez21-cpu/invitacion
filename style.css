@@ -1,21 +1,18 @@
 body{
     margin:0;
     padding:0;
+    overflow:hidden;
     background:#FAF7F2;
-    font-family: "Cormorant Garamond", serif;
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-    padding-top:0px;
-    min-height:100vh;
 }
 
 .contenedor{
-    width:100%;
-    max-width:600px;
-    text-align:center;
-    padding:15px;
-    box-sizing:border-box;
+    width:100vw;
+    min-height:100vh;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .texto{
@@ -45,11 +42,9 @@ body{
 }
 
 #sobre{
-    width:103%;
-    margin-left:-1.5%;
-    cursor:pointer;
-    transition:.3s;
-    filter: drop-shadow(0 10px 25px rgba(0,0,0,.18));
+    display:block;
+    width:100%;
+    height:auto;
 }
 
 #sobre:hover{
@@ -59,7 +54,7 @@ body{
 .sobre-contenedor{
     position:relative;
     width:100%;
-    max-width:640px;
+    max-width:430px;   /* ancho típico de un iPhone */
 }
 
 #nombre{
