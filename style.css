@@ -29,11 +29,12 @@ body{
 }
 
 #nombre{
-    margin-top:35px;
-    color:#6B5C48;
-    font-size:38px;
-    font-weight:600;
-    line-height:1.2;
+    font-family: "Great Vibes", cursive;
+    font-size:58px;
+    color:#5f5142;
+    font-weight:400;
+    margin:0;
+    line-height:1.1;
 }
 
 #mensaje{
