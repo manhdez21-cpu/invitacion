@@ -12,9 +12,9 @@ body{
 
 .contenedor{
     width:100%;
-    max-width:520px;
+    max-width:600px;
     text-align:center;
-    padding:25px;
+    padding:15px;
     box-sizing:border-box;
 }
 
