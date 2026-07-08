@@ -17,6 +17,10 @@ body{
     box-sizing:border-box;
 }
 
+.texto{
+    margin-bottom:30px;
+}
+
 #sobre{
     width:100%;
     cursor:pointer;
