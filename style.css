@@ -1,1 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+    background:#FAF7F2;
+    font-family: "Cormorant Garamond", serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
 
+.contenedor{
+    width:100%;
+    max-width:520px;
+    text-align:center;
+    padding:25px;
+    box-sizing:border-box;
+}
+
+#sobre{
+    width:100%;
+    cursor:pointer;
+    transition:.3s;
+    filter: drop-shadow(0 10px 25px rgba(0,0,0,.18));
+}
+
+#sobre:hover{
+    transform:scale(1.02);
+}
+
+#nombre{
+    margin-top:35px;
+    color:#6B5C48;
+    font-size:38px;
+    font-weight:600;
+    line-height:1.2;
+}
+
+#mensaje{
+    margin-top:12px;
+    color:#9C7A4A;
+    font-size:26px;
+    line-height:1.5;
+}
