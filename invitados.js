@@ -144,6 +144,11 @@ cupos:2
 nombre:"Abelardo Salgado",
 cupos:1
 }
+
+"ER30":{
+nombre:"Maria Erminia Rivera",
+cupos:1
+}
   
 
 };
