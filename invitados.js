@@ -153,7 +153,7 @@ cupos:1
 "AR31":{
 nombre:"Ana Milena Rivera",
 cupos:1
-}
+},
 
 "JA32":{
 nombre:"Jhon Jaime Arevalo",
