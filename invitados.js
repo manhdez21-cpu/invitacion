@@ -36,7 +36,7 @@ cupos:2
 },
 
 "LR08":{
-nombre:"Laura Ruiz",
+nombre:"Laura Alvarez",
 cupos:2
 },
 
