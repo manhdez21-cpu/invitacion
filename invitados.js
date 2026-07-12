@@ -17,7 +17,7 @@ cupos:1
 
 "AC04":{
 nombre:"Alejandra Camacho",
-cupos:3
+cupos:4
 },
 
 "AC05":{
