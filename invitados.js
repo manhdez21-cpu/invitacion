@@ -122,7 +122,7 @@ cupos:2
 
 "MR25":{
 nombre:"Miryam Rendón",
-cupos:1
+cupos:2
 },
 
 "GG26":{
