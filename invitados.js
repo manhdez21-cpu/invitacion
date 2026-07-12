@@ -154,6 +154,11 @@ cupos:1
 nombre:"Ana Milena Rivera",
 cupos:1
 }
+
+"JA32":{
+nombre:"Jhon Jaime Arevalo",
+cupos:2
+}
   
 
 };
