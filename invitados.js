@@ -143,10 +143,15 @@ cupos:2
 "AS29":{
 nombre:"Abelardo Salgado",
 cupos:1
-}
+},
 
 "ER30":{
 nombre:"Maria Erminia Rivera",
+cupos:1
+},
+
+"AR31":{
+nombre:"Ana Milena Rivera",
 cupos:1
 }
   
