@@ -17,11 +17,9 @@ body{
 
     width:100%;
 
-    display:block;
+    transform: scaleY(1.05);
 
-    position:relative;
-
-    z-index:1;
+    transform-origin: center;
 
 }
 
