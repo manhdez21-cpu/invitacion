@@ -1,478 +1,95 @@
-/* =========================
-   RESET
-========================= */
-
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
 
-:root{
-
-    --verde:#607254;
-    --dorado:#C7A25B;
-    --marfil:#FCFAF5;
-    --texto:#5D6756;
-    --borde:#D7C39B;
+margin:0;
+padding:0;
+box-sizing:border-box;
 
 }
 
 body{
 
-    font-family:'Cormorant Garamond',serif;
+background:#F8F6F1;
 
-    background:linear-gradient(
-        180deg,
-        #FCFAF5,
-        #F8F5EF
-    );
+display:flex;
 
-    color:var(--texto);
+justify-content:center;
 
-    min-height:100vh;
+align-items:center;
 
-    display:flex;
+min-height:100vh;
 
-    justify-content:center;
-
-    align-items:center;
-
-    padding:45px 18px;
+padding:20px;
 
 }
 
-/* =========================
-   CONTENEDOR
-========================= */
+.contenedor{
 
-.marco{
+position:relative;
 
-    width:100%;
+width:100%;
 
-    max-width:470px;
-
-    background:#FEFDFB;
-
-    position:relative;
-
-    border:1.8px solid var(--borde);
-
-    border-radius:34px;
-
-    overflow:hidden;
-
-    box-shadow:
-    0 20px 60px rgba(0,0,0,.10);
-
-    padding:55px 35px;
+max-width:520px;
 
 }
 
-/* =========================
-   BORDE INTERNO
-========================= */
+.fondo{
 
-.marco::before{
+width:100%;
 
-    content:"";
+display:block;
 
-    position:absolute;
+border-radius:28px;
 
-    inset:12px;
-
-    border:1px solid #D9C8A6;
-
-    border-radius:28px;
-
-    pointer-events:none;
+box-shadow:0 18px 45px rgba(0,0,0,.15);
 
 }
 
-/* =========================
-   ESQUINAS
-========================= */
+.boton{
 
-.esquina{
+position:absolute;
 
-    position:absolute;
+left:50%;
 
-    width:80px;
+top:73.2%;
 
-    height:80px;
+transform:translateX(-50%);
 
-    border-color:var(--dorado);
+width:68%;
 
-    opacity:.35;
+padding:18px 10px;
 
-}
+border-radius:45px;
 
-.superior{
+background:#607254;
 
-    top:12px;
+color:white;
 
-    left:12px;
+text-decoration:none;
 
-    border-top:2px solid;
+text-align:center;
 
-    border-left:2px solid;
+font-size:21px;
 
-    border-top-left-radius:24px;
+font-family:Georgia,serif;
 
-}
+letter-spacing:2px;
 
-.inferior{
+font-weight:600;
 
-    bottom:12px;
+box-shadow:0 8px 18px rgba(0,0,0,.25);
 
-    right:12px;
-
-    border-bottom:2px solid;
-
-    border-right:2px solid;
-
-    border-bottom-right-radius:24px;
+transition:.3s;
 
 }
 
-/* =========================
-   HEADER
-========================= */
+.boton:hover{
 
-header{
-
-    text-align:center;
+transform:translateX(-50%) scale(1.04);
 
 }
 
-.lm{
+.boton:active{
 
-    font-family:'Great Vibes',cursive;
-
-    color:var(--dorado);
-
-    font-size:82px;
-
-    line-height:1;
-
-    margin-bottom:18px;
-
-}
-
-.linea{
-
-    width:110px;
-
-    height:1px;
-
-    background:#DCC89F;
-
-    margin:0 auto 22px;
-
-    position:relative;
-
-}
-
-.linea::after{
-
-    content:"♥";
-
-    position:absolute;
-
-    left:50%;
-
-    top:-12px;
-
-    transform:translateX(-50%);
-
-    background:#FEFDFB;
-
-    color:var(--dorado);
-
-    padding:0 10px;
-
-    font-size:13px;
-
-}
-
-h1{
-
-    font-size:45px;
-
-    color:var(--verde);
-
-    font-weight:600;
-
-    line-height:1.15;
-
-    margin-bottom:45px;
-
-}
-
-/* =========================
-   MENSAJE
-========================= */
-
-.mensaje{
-
-    text-align:center;
-
-    margin-bottom:40px;
-
-}
-
-.mensaje p{
-
-    font-size:22px;
-
-    line-height:1.7;
-
-    margin-bottom:22px;
-
-    color:#66655F;
-
-}
-
-.mensaje p:first-child{
-
-    color:var(--verde);
-
-    font-size:28px;
-
-    font-weight:600;
-
-}
-
-/* =========================
-   ICONO
-========================= */
-
-.camara{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    gap:18px;
-
-    margin-bottom:45px;
-
-}
-
-.adorno{
-
-    width:70px;
-
-    height:1px;
-
-    background:#D8C59D;
-
-}
-
-.icono{
-
-    width:82px;
-
-    height:82px;
-
-    border-radius:50%;
-
-    border:1.5px solid var(--borde);
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    font-size:36px;
-
-    background:#FCFBF7;
-
-    color:var(--dorado);
-
-    box-shadow:0 8px 20px rgba(0,0,0,.05);
-
-}
-
-/* =========================
-   BOTONES
-========================= */
-
-.botones{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:18px;
-
-    margin-bottom:45px;
-
-}
-
-.btn{
-
-    text-decoration:none;
-
-    text-align:center;
-
-    padding:18px;
-
-    border-radius:50px;
-
-    font-size:20px;
-
-    letter-spacing:.5px;
-
-    transition:.35s;
-
-}
-
-.principal{
-
-    background:#607254;
-
-    color:white;
-
-    box-shadow:0 10px 25px rgba(96,114,84,.28);
-
-}
-
-.principal:hover{
-
-    transform:translateY(-3px);
-
-    box-shadow:0 18px 35px rgba(96,114,84,.35);
-
-}
-
-.secundario{
-
-    border:1.5px solid #607254;
-
-    color:#607254;
-
-    background:white;
-
-}
-
-.secundario:hover{
-
-    background:#607254;
-
-    color:white;
-
-}
-
-/* =========================
-   FOOTER
-========================= */
-
-footer{
-
-    text-align:center;
-
-}
-
-footer p{
-
-    font-size:21px;
-
-    line-height:1.6;
-
-    margin-bottom:18px;
-
-}
-
-footer span{
-
-    display:block;
-
-    font-family:'Great Vibes',cursive;
-
-    color:var(--dorado);
-
-    font-size:42px;
-
-    margin-bottom:8px;
-
-}
-
-footer small{
-
-    font-size:18px;
-
-    color:#7A7A7A;
-
-}
-
-/* =========================
-   ANIMACIÓN
-========================= */
-
-.marco{
-
-    animation:aparecer .9s ease;
-
-}
-
-@keyframes aparecer{
-
-    from{
-
-        opacity:0;
-
-        transform:translateY(25px);
-
-    }
-
-    to{
-
-        opacity:1;
-
-        transform:translateY(0);
-
-    }
-
-}
-
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media(max-width:480px){
-
-    .marco{
-
-        padding:42px 24px;
-
-    }
-
-    .lm{
-
-        font-size:68px;
-
-    }
-
-    h1{
-
-        font-size:36px;
-
-    }
-
-    .mensaje p{
-
-        font-size:20px;
-
-    }
-
-    .btn{
-
-        font-size:18px;
-
-    }
+transform:translateX(-50%) scale(.97);
 
 }
