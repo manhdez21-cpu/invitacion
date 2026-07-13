@@ -17,11 +17,11 @@ body{
 
     width:100%;
 
-    min-height:100vh;
-
-    object-fit:cover;
-
     display:block;
+
+    position:relative;
+
+    z-index:1;
 
 }
 
@@ -35,12 +35,16 @@ body{
 
     top:73.5%;
 
-    width:66%;
+    width:67%;
 
-    height:5.2%;
+    height:72px;
 
-    border-radius:45px;
+    z-index:9999;
+
+    display:block;
 
     cursor:pointer;
+
+    background:rgba(255,0,0,0); /* totalmente transparente */
 
 }
