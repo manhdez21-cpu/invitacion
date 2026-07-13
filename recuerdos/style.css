@@ -1,17 +1,36 @@
+/* =========================
+   RESET
+========================= */
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
+:root{
+
+    --verde:#607254;
+    --dorado:#C7A25B;
+    --marfil:#FCFAF5;
+    --texto:#5D6756;
+    --borde:#D7C39B;
+
+}
+
 body{
 
-    background:#F8F6F1;
     font-family:'Cormorant Garamond',serif;
 
-    color:#607254;
+    background:linear-gradient(
+        180deg,
+        #FCFAF5,
+        #F8F5EF
+    );
 
-    height:100vh;
+    color:var(--texto);
+
+    min-height:100vh;
 
     display:flex;
 
@@ -19,103 +38,173 @@ body{
 
     align-items:center;
 
-    overflow:hidden;
+    padding:45px 18px;
 
 }
 
-.contenedor{
+/* =========================
+   CONTENEDOR
+========================= */
 
-    width:90%;
-    max-width:430px;
+.marco{
 
-    text-align:center;
+    width:100%;
 
-    padding:45px 30px;
+    max-width:470px;
 
-    border:1px solid #D8C9A5;
+    background:#FEFDFB;
+
+    position:relative;
+
+    border:1.8px solid var(--borde);
+
+    border-radius:34px;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 20px 60px rgba(0,0,0,.10);
+
+    padding:55px 35px;
+
+}
+
+/* =========================
+   BORDE INTERNO
+========================= */
+
+.marco::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:12px;
+
+    border:1px solid #D9C8A6;
 
     border-radius:28px;
 
-    background:#FCFBF8;
-
-    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    pointer-events:none;
 
 }
 
-.logo{
+/* =========================
+   ESQUINAS
+========================= */
+
+.esquina{
+
+    position:absolute;
+
+    width:80px;
+
+    height:80px;
+
+    border-color:var(--dorado);
+
+    opacity:.35;
+
+}
+
+.superior{
+
+    top:12px;
+
+    left:12px;
+
+    border-top:2px solid;
+
+    border-left:2px solid;
+
+    border-top-left-radius:24px;
+
+}
+
+.inferior{
+
+    bottom:12px;
+
+    right:12px;
+
+    border-bottom:2px solid;
+
+    border-right:2px solid;
+
+    border-bottom-right-radius:24px;
+
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header{
+
+    text-align:center;
+
+}
+
+.lm{
 
     font-family:'Great Vibes',cursive;
 
-    font-size:58px;
+    color:var(--dorado);
 
-    color:#B89C58;
+    font-size:82px;
 
-    margin-bottom:15px;
+    line-height:1;
+
+    margin-bottom:18px;
+
+}
+
+.linea{
+
+    width:110px;
+
+    height:1px;
+
+    background:#DCC89F;
+
+    margin:0 auto 22px;
+
+    position:relative;
+
+}
+
+.linea::after{
+
+    content:"♥";
+
+    position:absolute;
+
+    left:50%;
+
+    top:-12px;
+
+    transform:translateX(-50%);
+
+    background:#FEFDFB;
+
+    color:var(--dorado);
+
+    padding:0 10px;
+
+    font-size:13px;
 
 }
 
 h1{
 
-    font-size:34px;
+    font-size:45px;
+
+    color:var(--verde);
 
     font-weight:600;
 
-    margin-bottom:25px;
+    line-height:1.15;
 
-}
-
-p{
-
-    font-size:22px;
-
-    line-height:1.6;
-
-    margin-bottom:30px;
-
-}
-
-.icono{
-
-    font-size:42px;
-
-    margin-bottom:30px;
-
-}
-
-.boton{
-
-    display:inline-block;
-
-    text-decoration:none;
-
-    background:#607254;
-
-    color:white;
-
-    padding:16px 42px;
-
-    border-radius:40px;
-
-    font-size:20px;
-
-    transition:.30s;
-
-}
-
-.boton:hover{
-
-    transform:scale(1.05);
-
-}
-
-.footer{
-
-    margin-top:35px;
-
-    font-size:18px;
-
-    color:#7A7A7A;
-
-    line-height:1.6;
+    margin-bottom:45px;
 
 }
