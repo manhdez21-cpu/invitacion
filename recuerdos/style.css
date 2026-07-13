@@ -1,13 +1,22 @@
+html,
 body{
+
     margin:0;
-    overflow:hidden;   /* Evita el scroll */
+    padding:0;
+
+    width:100%;
+    height:100%;
+    overflow:hidden;
+
     background:#F8F6F1;
+
 }
 
 .contenedor{
-    position:relative;
-    width:100vw;
-    height:100vh;
+    position:fixed;
+    inset:0;
+    width:100%;
+    height:100dvh;   /* usa la altura dinámica del dispositivo */
     overflow:hidden;
 }
 
