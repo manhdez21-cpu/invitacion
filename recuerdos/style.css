@@ -14,8 +14,33 @@ body{
 }
 
 .fondo{
+
     width:100%;
-    height:auto;
+
+    min-height:100vh;
+
+    object-fit:cover;
+
     display:block;
-    border-radius:28px;
+
+}
+
+.botonInvisible{
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    top:73.5%;
+
+    width:66%;
+
+    height:5.2%;
+
+    border-radius:45px;
+
+    cursor:pointer;
+
 }
