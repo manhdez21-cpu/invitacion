@@ -26,11 +26,11 @@ padding:20px;
 
 position:relative;
 
-width:100%;
+width:min(390xp,92vw);
 
 max-width:420px;
 
-margin:auto;
+margin:40px auto;
 
 }
 
