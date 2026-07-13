@@ -25,3 +25,25 @@ body{
     object-fit:cover;
     display:block;
 }
+
+.botonInvisible{
+
+    position:absolute;
+
+    left:50%;
+    top:73.2%;
+
+    transform:translateX(-50%);
+
+    width:68%;
+    height:64px;
+
+    z-index:9999;
+
+    display:block;
+
+    cursor:pointer;
+
+    background:transparent;
+
+}
