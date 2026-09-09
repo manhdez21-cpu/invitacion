@@ -158,6 +158,11 @@ cupos:1
 "JA32":{
 nombre:"Jhon Jaime Arevalo",
 cupos:2
+},
+
+"TA33":{
+nombre:"Tatiana Urbina Leal",
+cupos:1
 }
   
 
